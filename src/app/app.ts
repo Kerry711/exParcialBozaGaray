@@ -5,6 +5,8 @@ import { Main } from './components/main/main';
 import { Aside } from './components/aside/aside';
 import { Footer } from './components/footer/footer';
 
+
+
 @Component({
   imports: [RouterOutlet, Header, Main, Aside, Footer],
   selector: 'app-root',
