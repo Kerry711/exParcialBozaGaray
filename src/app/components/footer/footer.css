@@ -1,0 +1,58 @@
+.footer-uc {
+    color: #cfc2d9;
+    background:
+      radial-gradient(circle at 90% 10%, rgba(104, 2, 193, .28), transparent 30%),
+      #1c1028;
+  }
+  
+  .footer-logo {
+    display: grid;
+    place-items: center;
+    width: 48px;
+    height: 48px;
+    color: #fff;
+    background: var(--uc-morado);
+    border-radius: 14px;
+    font-weight: 900;
+  }
+  
+  .footer-description {
+    max-width: 440px;
+    color: #baaac7;
+    font-size: .88rem;
+    line-height: 1.7;
+  }
+  
+  .footer-title {
+    margin-bottom: 1rem;
+    color: #fff;
+    font-size: .87rem;
+    font-weight: 800;
+  }
+  
+  .footer-uc a {
+    color: #c9b7d6;
+    font-size: .82rem;
+    text-decoration: none;
+  }
+  
+  .footer-uc a:hover {
+    color: #fff;
+  }
+  
+  .footer-small {
+    color: #baaac7;
+    font-size: .8rem;
+    line-height: 1.6;
+  }
+  
+  .footer-news-link {
+    color: #dfb8ff !important;
+    font-weight: 800;
+  }
+  
+  .footer-bottom {
+    border-top: 1px solid rgba(255, 255, 255, .12);
+    color: #917fa0;
+    font-size: .73rem;
+  }
