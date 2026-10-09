@@ -1,1 +1,498 @@
-<p>main works!</p>
+<section id="inicio" class="hero-uc section-anchor overflow-hidden">
+  <div class="row g-0 align-items-stretch">
+    <div class="col-lg-7">
+      <div class="hero-content h-100 d-flex flex-column justify-content-center p-4 p-md-5">
+        <span class="hero-badge"> EXPLORA TU FUTURO </span>
+
+        <h1 class="display-5 fw-bold mt-4 mb-3">
+          Encuentra la carrera que conecta con
+          <span>lo que te apasiona.</span>
+        </h1>
+
+        <p class="lead mb-4">
+          Descubre tus posibilidades, conoce nuestras áreas académicas y empieza a construir el
+          futuro profesional que imaginas.
+        </p>
+
+        <div class="d-flex flex-wrap gap-2">
+          <a class="btn btn-light btn-lg rounded-pill fw-bold px-4" href="#explorador">
+            Explorar carreras
+          </a>
+
+          <a class="btn btn-outline-light btn-lg rounded-pill px-4" href="#facultades">
+            Ver facultades
+          </a>
+        </div>
+
+        <div class="row g-3 mt-4">
+          <div class="col-6">
+            <div class="hero-stat">
+              <strong>33</strong>
+              <span>Carreras profesionales</span>
+            </div>
+          </div>
+
+          <div class="col-6">
+            <div class="hero-stat">
+              <strong>3</strong>
+              <span>Modalidades de estudio</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-lg-5">
+      <div class="hero-image-wrapper h-100">
+        <img
+          src="/images/hero-estudiantes.jpg"
+          class="hero-image"
+          alt="Estudiantes universitarios compartiendo una experiencia académica"
+        />
+
+        <div class="hero-floating-card">
+          <span>Tu carrera</span>
+          <strong>Tu futuro comienza aquí</strong>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="explorador" class="section-anchor py-5">
+  <div class="mb-4">
+    <span class="section-label">Valor agregado</span>
+
+    <h2 class="section-title display-6 mt-2">Explorador de Carreras por Intereses</h2>
+
+    <p class="text-secondary mb-0 explorer-description">
+      Elige el área que más se relaciona contigo y descubre algunas carreras que podrían conectar
+      con tus habilidades e intereses.
+    </p>
+  </div>
+
+  <div class="explorer-container p-3 p-md-4">
+    <ul class="nav nav-pills explorer-tabs gap-2" id="interesesTab" role="tablist">
+      <li class="nav-item" role="presentation">
+        <button
+          class="nav-link active"
+          id="tecnologia-tab"
+          data-bs-toggle="pill"
+          data-bs-target="#tecnologia"
+          type="button"
+          role="tab"
+          aria-controls="tecnologia"
+          aria-selected="true"
+        >
+          Tecnología
+        </button>
+      </li>
+
+      <li class="nav-item" role="presentation">
+        <button
+          class="nav-link"
+          id="salud-tab"
+          data-bs-toggle="pill"
+          data-bs-target="#salud"
+          type="button"
+          role="tab"
+          aria-controls="salud"
+          aria-selected="false"
+        >
+          Salud
+        </button>
+      </li>
+
+      <li class="nav-item" role="presentation">
+        <button
+          class="nav-link"
+          id="negocios-tab"
+          data-bs-toggle="pill"
+          data-bs-target="#negocios"
+          type="button"
+          role="tab"
+          aria-controls="negocios"
+          aria-selected="false"
+        >
+          Negocios
+        </button>
+      </li>
+
+      <li class="nav-item" role="presentation">
+        <button
+          class="nav-link"
+          id="social-tab"
+          data-bs-toggle="pill"
+          data-bs-target="#social"
+          type="button"
+          role="tab"
+          aria-controls="social"
+          aria-selected="false"
+        >
+          Social
+        </button>
+      </li>
+    </ul>
+
+    <div class="tab-content mt-4" id="interesesTabContent">
+      <div
+        class="tab-pane fade show active"
+        id="tecnologia"
+        role="tabpanel"
+        aria-labelledby="tecnologia-tab"
+        tabindex="0"
+      >
+        <div class="row g-4 align-items-center">
+          <div class="col-md-5">
+            <img
+              src="/images/tecnologia.jpg"
+              class="explorer-image"
+              alt="Estudiantes trabajando con tecnología"
+              loading="lazy"
+            />
+          </div>
+
+          <div class="col-md-7">
+            <span class="section-label">Crea e innova</span>
+
+            <h3 class="h3 fw-bold mt-2">Tecnología e Ingeniería</h3>
+
+            <p class="text-secondary">
+              Ideal si disfrutas resolver problemas, crear soluciones, experimentar y comprender
+              cómo funciona la tecnología.
+            </p>
+
+            <div class="career-card">
+              <div>
+                <strong>Ingeniería de Sistemas e Informática</strong>
+                <small>Software, datos y soluciones digitales.</small>
+              </div>
+              <span class="career-badge">3 modalidades</span>
+            </div>
+
+            <div class="career-card">
+              <div>
+                <strong>Ingeniería Mecatrónica</strong>
+                <small>Automatización, electrónica y mecánica.</small>
+              </div>
+              <span class="career-badge">2 modalidades</span>
+            </div>
+
+            <div class="career-card">
+              <div>
+                <strong>Ciencia de la Computación</strong>
+                <small>Algoritmos, programación y nuevas tecnologías.</small>
+              </div>
+              <span class="career-badge">A distancia</span>
+            </div>
+
+            <a class="btn btn-uc rounded-pill px-4 mt-3" href="#facultades"> Ver área académica </a>
+          </div>
+        </div>
+      </div>
+
+      <div
+        class="tab-pane fade"
+        id="salud"
+        role="tabpanel"
+        aria-labelledby="salud-tab"
+        tabindex="0"
+      >
+        <div class="row g-4 align-items-center">
+          <div class="col-md-5">
+            <img
+              src="/images/salud.jpg"
+              class="explorer-image"
+              alt="Estudiante en un entorno relacionado con ciencias de la salud"
+              loading="lazy"
+            />
+          </div>
+
+          <div class="col-md-7">
+            <span class="section-label">Cuida y transforma</span>
+
+            <h3 class="h3 fw-bold mt-2">Ciencias de la Salud</h3>
+
+            <p class="text-secondary">
+              Una alternativa para quienes sienten interés por la ciencia, el bienestar de las
+              personas y el servicio a la sociedad.
+            </p>
+
+            <div class="career-card">
+              <div>
+                <strong>Medicina Humana</strong>
+                <small>Prevención, diagnóstico y atención de la salud.</small>
+              </div>
+              <span class="career-badge">Presencial</span>
+            </div>
+
+            <div class="career-card">
+              <div>
+                <strong>Enfermería</strong>
+                <small>Cuidado integral y atención de las personas.</small>
+              </div>
+              <span class="career-badge">Presencial</span>
+            </div>
+
+            <div class="career-card">
+              <div>
+                <strong>Odontología</strong>
+                <small>Prevención y cuidado de la salud bucal.</small>
+              </div>
+              <span class="career-badge">Presencial</span>
+            </div>
+
+            <a class="btn btn-uc rounded-pill px-4 mt-3" href="#facultades"> Ver área académica </a>
+          </div>
+        </div>
+      </div>
+
+      <div
+        class="tab-pane fade"
+        id="negocios"
+        role="tabpanel"
+        aria-labelledby="negocios-tab"
+        tabindex="0"
+      >
+        <div class="row g-4 align-items-center">
+          <div class="col-md-5">
+            <img
+              src="/images/negocios.jpg"
+              class="explorer-image"
+              alt="Estudiantes reunidos desarrollando una idea de negocio"
+              loading="lazy"
+            />
+          </div>
+
+          <div class="col-md-7">
+            <span class="section-label">Lidera y emprende</span>
+
+            <h3 class="h3 fw-bold mt-2">Empresa y Negocios</h3>
+
+            <p class="text-secondary">
+              Para quienes disfrutan planificar, tomar decisiones, liderar equipos y convertir ideas
+              en oportunidades.
+            </p>
+
+            <div class="career-card">
+              <div>
+                <strong>Administración y Marketing</strong>
+                <small>Estrategias, marcas y comportamiento del consumidor.</small>
+              </div>
+              <span class="career-badge">3 modalidades</span>
+            </div>
+
+            <div class="career-card">
+              <div>
+                <strong>Administración y Negocios Internacionales</strong>
+                <small>Comercio, gestión y oportunidades globales.</small>
+              </div>
+              <span class="career-badge">3 modalidades</span>
+            </div>
+
+            <div class="career-card">
+              <div>
+                <strong>Contabilidad y Finanzas</strong>
+                <small>Información financiera y decisiones empresariales.</small>
+              </div>
+              <span class="career-badge">3 modalidades</span>
+            </div>
+
+            <a class="btn btn-uc rounded-pill px-4 mt-3" href="#facultades"> Ver área académica </a>
+          </div>
+        </div>
+      </div>
+
+      <div
+        class="tab-pane fade"
+        id="social"
+        role="tabpanel"
+        aria-labelledby="social-tab"
+        tabindex="0"
+      >
+        <div class="row g-4 align-items-center">
+          <div class="col-md-5">
+            <img
+              src="/images/social.jpg"
+              class="explorer-image"
+              alt="Estudiantes dialogando y compartiendo ideas"
+              loading="lazy"
+            />
+          </div>
+
+          <div class="col-md-7">
+            <span class="section-label">Comprende e impacta</span>
+
+            <h3 class="h3 fw-bold mt-2">Sociedad y Personas</h3>
+
+            <p class="text-secondary">
+              Pensado para quienes disfrutan comunicarse, comprender a las personas y participar en
+              los desafíos de la sociedad.
+            </p>
+
+            <div class="career-card">
+              <div>
+                <strong>Derecho</strong>
+                <small>Normas, justicia y solución de conflictos.</small>
+              </div>
+              <span class="career-badge">3 modalidades</span>
+            </div>
+
+            <div class="career-card">
+              <div>
+                <strong>Psicología</strong>
+                <small>Conducta, emociones y desarrollo humano.</small>
+              </div>
+              <span class="career-badge">3 modalidades</span>
+            </div>
+
+            <div class="career-card">
+              <div>
+                <strong>Ciencias de la Comunicación</strong>
+                <small>Información, medios y comunicación estratégica.</small>
+              </div>
+              <span class="career-badge">Presencial</span>
+            </div>
+
+            <a class="btn btn-uc rounded-pill px-4 mt-3" href="#facultades"> Ver área académica </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="explorer-note mt-4">
+      <strong>¿Por qué es nuestro valor agregado?</strong>
+      <span>
+        Porque ayuda al futuro estudiante a descubrir opciones académicas partiendo primero de sus
+        intereses y no solamente de una lista de carreras.
+      </span>
+    </div>
+  </div>
+</section>
+
+<section id="facultades" class="section-anchor pb-5">
+  <span class="section-label">Oferta académica</span>
+
+  <h2 class="section-title display-6 mt-2">Facultades que conectan con tu propósito</h2>
+
+  <p class="text-secondary mb-4">
+    Explora diferentes áreas de conocimiento y encuentra una formación relacionada con tus metas.
+  </p>
+
+  <div class="row g-3">
+    <div class="col-md-6 col-xl-4">
+      <article class="faculty-card h-100">
+        <span class="faculty-number">01</span>
+        <h3 class="h5 fw-bold">Ingeniería</h3>
+        <p>Diseña soluciones para los desafíos tecnológicos, industriales y de infraestructura.</p>
+        <a href="#explorador">Explorar carreras →</a>
+      </article>
+    </div>
+
+    <div class="col-md-6 col-xl-4">
+      <article class="faculty-card h-100">
+        <span class="faculty-number">02</span>
+        <h3 class="h5 fw-bold">Ciencias de la Empresa</h3>
+        <p>Desarrolla competencias para dirigir organizaciones, emprender y generar valor.</p>
+        <a href="#explorador">Explorar carreras →</a>
+      </article>
+    </div>
+
+    <div class="col-md-6 col-xl-4">
+      <article class="faculty-card h-100">
+        <span class="faculty-number">03</span>
+        <h3 class="h5 fw-bold">Salud</h3>
+        <p>Prepárate para contribuir con el bienestar y la calidad de vida de las personas.</p>
+        <a href="#explorador">Explorar carreras →</a>
+      </article>
+    </div>
+
+    <div class="col-md-6 col-xl-4">
+      <article class="faculty-card h-100">
+        <span class="faculty-number">04</span>
+        <h3 class="h5 fw-bold">Derecho</h3>
+        <p>
+          Comprende el sistema jurídico y participa en la construcción de una sociedad más justa.
+        </p>
+        <a href="#explorador">Explorar carreras →</a>
+      </article>
+    </div>
+
+    <div class="col-md-6 col-xl-4">
+      <article class="faculty-card h-100">
+        <span class="faculty-number">05</span>
+        <h3 class="h5 fw-bold">Ciencias Sociales</h3>
+        <p>Comunica, analiza y comprende los cambios que transforman nuestra sociedad.</p>
+        <a href="#explorador">Explorar carreras →</a>
+      </article>
+    </div>
+
+    <div class="col-md-6 col-xl-4">
+      <article class="faculty-card h-100">
+        <span class="faculty-number">06</span>
+        <h3 class="h5 fw-bold">Psicología</h3>
+        <p>Estudia el comportamiento, las emociones y el desarrollo integral de las personas.</p>
+        <a href="#explorador">Explorar carreras →</a>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section id="nosotros" class="section-anchor about-section mb-5 overflow-hidden">
+  <div class="row g-0">
+    <div class="col-lg-5">
+      <img
+        src="/images/campus.jpg"
+        class="about-image"
+        alt="Ambiente universitario con estudiantes"
+        loading="lazy"
+      />
+    </div>
+
+    <div class="col-lg-7">
+      <div class="p-4 p-md-5">
+        <span class="section-label">Conoce la universidad</span>
+
+        <h2 class="section-title display-6 mt-2">Una comunidad que impulsa nuevas posibilidades</h2>
+
+        <p class="text-secondary">
+          La propuesta educativa de la Universidad Continental busca acompañar a las personas
+          durante su formación y acercarlas a oportunidades de aprendizaje con una mirada global.
+        </p>
+
+        <div class="about-item">
+          <span>01</span>
+          <div>
+            <h3 class="h5 fw-bold">Historia</h3>
+            <p>
+              La Organización Educativa Continental inició su camino en Huancayo y con el tiempo
+              amplió su propuesta de educación superior y su presencia en el país.
+            </p>
+          </div>
+        </div>
+
+        <div class="about-item">
+          <span>02</span>
+          <div>
+            <h3 class="h5 fw-bold">Misión</h3>
+            <p>
+              Impulsar y acompañar a las personas para que alcancen su propósito de vida mediante
+              una educación accesible, pertinente y con perspectiva global.
+            </p>
+          </div>
+        </div>
+
+        <div class="about-item border-0 pb-0">
+          <span>03</span>
+          <div>
+            <h3 class="h5 fw-bold">Visión</h3>
+            <p>
+              Generar oportunidades de aprendizaje e investigación que conecten personas e ideas y
+              permitan transformar aspiraciones en mejores escenarios de futuro.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

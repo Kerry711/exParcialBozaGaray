@@ -1,0 +1,176 @@
+.aside-container {
+  position: sticky;
+  top: 100px;
+}
+
+.side-card,
+.benefits-card {
+  padding: 1.35rem;
+  background: #fff;
+  border: 1px solid var(--uc-borde);
+  border-radius: 22px;
+  box-shadow: 0 12px 35px rgba(38, 18, 52, .045);
+}
+
+.admission-card {
+  color: #fff;
+  background: linear-gradient(145deg, var(--uc-morado), var(--uc-morado-oscuro));
+  border: 0;
+}
+
+.admission-card p {
+  color: rgba(255, 255, 255, .82);
+  font-size: .87rem;
+  line-height: 1.6;
+}
+
+.side-label {
+  color: var(--uc-morado);
+  font-size: .68rem;
+  font-weight: 900;
+  letter-spacing: .13em;
+}
+
+.accordion-item {
+  border-color: #eee8f2;
+}
+
+.accordion-button {
+  padding: .85rem 0;
+  font-size: .84rem;
+  font-weight: 800;
+  box-shadow: none !important;
+}
+
+.accordion-button:not(.collapsed) {
+  color: var(--uc-morado);
+  background: transparent;
+}
+
+.accordion-button:focus {
+  border-color: transparent;
+  box-shadow: none;
+}
+
+.accordion-body {
+  padding: 0 0 1rem 0;
+  color: var(--uc-gris);
+  font-size: .78rem;
+  line-height: 1.6;
+}
+
+.modality-card {
+  display: flex;
+  gap: .75rem;
+  padding: .8rem 0;
+  border-bottom: 1px solid #eee9f1;
+}
+
+.modality-card:last-child {
+  border-bottom: 0;
+  padding-bottom: 0;
+}
+
+.modality-icon {
+  flex-shrink: 0;
+  display: grid;
+  place-items: center;
+  width: 40px;
+  height: 40px;
+  color: var(--uc-morado);
+  background: var(--uc-morado-claro);
+  border-radius: 12px;
+  font-size: .8rem;
+  font-weight: 900;
+}
+
+.modality-card div {
+  display: flex;
+  flex-direction: column;
+}
+
+.modality-card strong {
+  font-size: .84rem;
+}
+
+.modality-card small {
+  margin-top: .2rem;
+  color: var(--uc-gris);
+  font-size: .75rem;
+  line-height: 1.45;
+}
+
+.service-item {
+  display: flex;
+  flex-direction: column;
+  padding: .75rem 0;
+  border-bottom: 1px solid #eee9f1;
+}
+
+.service-item:last-child {
+  border-bottom: 0;
+  padding-bottom: 0;
+}
+
+.service-item strong {
+  color: var(--uc-texto);
+  font-size: .83rem;
+}
+
+.service-item small {
+  margin-top: .25rem;
+  color: var(--uc-gris);
+  font-size: .75rem;
+  line-height: 1.45;
+}
+
+.benefits-card {
+  background: linear-gradient(145deg, #f2e7fb, #fff);
+}
+
+.benefits-card p {
+  color: #66596e;
+  line-height: 1.6;
+}
+
+.benefit-pill {
+  padding: .6rem .75rem;
+  margin-top: .5rem;
+  color: var(--uc-morado);
+  background: rgba(255, 255, 255, .8);
+  border: 1px solid #dec8ed;
+  border-radius: 12px;
+  font-size: .77rem;
+  font-weight: 800;
+}
+
+.news-card {
+  padding: .9rem 0;
+  border-bottom: 1px solid #eee9f1;
+}
+
+.news-type {
+  color: var(--uc-morado);
+  font-size: .67rem;
+  font-weight: 900;
+}
+
+.news-card h3 {
+  margin: .4rem 0;
+  color: var(--uc-texto);
+  font-size: .84rem;
+  font-weight: 700;
+  line-height: 1.5;
+}
+
+.news-link {
+  color: #8b7d94;
+  font-size: .7rem;
+  font-weight: 700;
+}
+
+@media (max-width: 991.98px) {
+  .aside-container {
+    position: static;
+  }
+}
