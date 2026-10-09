@@ -1,0 +1,342 @@
+.hero-uc {
+  color: #fff;
+  background: linear-gradient(135deg, #24003f 0%, var(--uc-morado) 65%, #8c28e5 100%);
+  border-radius: 30px;
+  box-shadow: 0 24px 60px rgba(61, 4, 105, .17);
+}
+
+.hero-content {
+  min-height: 500px;
+}
+
+.hero-badge {
+  align-self: flex-start;
+  padding: .6rem 1rem;
+  color: #fff;
+  background: rgba(255, 255, 255, .14);
+  border: 1px solid rgba(255, 255, 255, .25);
+  border-radius: 50px;
+  font-size: .72rem;
+  font-weight: 800;
+  letter-spacing: .13em;
+}
+
+.hero-uc h1 {
+  line-height: 1.08;
+  letter-spacing: -.045em;
+}
+
+.hero-uc h1 span {
+  color: #ead2ff;
+}
+
+.hero-uc .lead {
+  max-width: 620px;
+  color: rgba(255, 255, 255, .86);
+  font-size: 1.08rem;
+  line-height: 1.7;
+}
+
+.hero-stat {
+  display: flex;
+  flex-direction: column;
+  padding-top: 1rem;
+  border-top: 1px solid rgba(255, 255, 255, .2);
+}
+
+.hero-stat strong {
+  font-size: 1.75rem;
+  line-height: 1;
+}
+
+.hero-stat span {
+  margin-top: .35rem;
+  color: rgba(255, 255, 255, .76);
+  font-size: .78rem;
+}
+
+.hero-image-wrapper {
+  position: relative;
+  min-height: 500px;
+}
+
+.hero-image {
+  width: 100%;
+  height: 100%;
+  min-height: 500px;
+  object-fit: cover;
+}
+
+.hero-image-wrapper::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to top, rgba(31, 0, 53, .45), transparent 55%);
+}
+
+.hero-floating-card {
+  position: absolute;
+  right: 1.25rem;
+  bottom: 1.25rem;
+  left: 1.25rem;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 1.2rem;
+  background: rgba(255, 255, 255, .93);
+  color: var(--uc-texto);
+  border-radius: 18px;
+  backdrop-filter: blur(10px);
+}
+
+.hero-floating-card span {
+  color: var(--uc-morado);
+  font-size: .72rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+}
+
+.hero-floating-card strong {
+  margin-top: .25rem;
+  font-size: 1rem;
+}
+
+.explorer-description {
+  max-width: 760px;
+  line-height: 1.7;
+}
+
+.explorer-container {
+  background: #fff;
+  border: 1px solid var(--uc-borde);
+  border-radius: 25px;
+  box-shadow: 0 15px 40px rgba(38, 18, 52, .06);
+}
+
+.explorer-tabs .nav-link {
+  padding: .7rem 1.2rem;
+  color: #5c4d66;
+  background: #f8f5fa;
+  border: 1px solid #eee6f4;
+  border-radius: 50px;
+  font-weight: 700;
+}
+
+.explorer-tabs .nav-link:hover {
+  color: var(--uc-morado);
+  border-color: #caa6e9;
+}
+
+.explorer-tabs .nav-link.active {
+  color: #fff;
+  background: var(--uc-morado);
+  border-color: var(--uc-morado);
+  box-shadow: 0 7px 18px rgba(104, 2, 193, .2);
+}
+
+.explorer-image {
+  width: 100%;
+  height: 390px;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+.career-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: .75rem;
+  padding: .85rem 1rem;
+  margin-bottom: .65rem;
+  background: #faf8fc;
+  border: 1px solid #eee8f2;
+  border-radius: 14px;
+  transition: .2s ease;
+}
+
+.career-card:hover {
+  transform: translateX(4px);
+  border-color: #d4b8e9;
+  background: #f7f0fc;
+}
+
+.career-card div {
+  display: flex;
+  flex-direction: column;
+}
+
+.career-card strong {
+  font-size: .9rem;
+}
+
+.career-card small {
+  margin-top: .2rem;
+  color: var(--uc-gris);
+  font-size: .77rem;
+}
+
+.career-badge {
+  flex-shrink: 0;
+  padding: .35rem .6rem;
+  color: var(--uc-morado);
+  background: var(--uc-morado-claro);
+  border-radius: 50px;
+  font-size: .67rem;
+  font-weight: 800;
+}
+
+.explorer-note {
+  display: flex;
+  flex-direction: column;
+  gap: .3rem;
+  padding: 1rem 1.2rem;
+  background: linear-gradient(90deg, #f2e8fb, #faf7fd);
+  border-left: 4px solid var(--uc-morado);
+  border-radius: 12px;
+}
+
+.explorer-note strong {
+  color: var(--uc-morado);
+  font-size: .87rem;
+}
+
+.explorer-note span {
+  color: #615767;
+  font-size: .83rem;
+  line-height: 1.5;
+}
+
+.faculty-card {
+  position: relative;
+  padding: 1.4rem;
+  background: #fff;
+  border: 1px solid var(--uc-borde);
+  border-radius: 20px;
+  transition: transform .2s ease, box-shadow .2s ease, border-color .2s ease;
+}
+
+.faculty-card:hover {
+  transform: translateY(-5px);
+  border-color: #d8bee9;
+  box-shadow: 0 17px 40px rgba(75, 23, 111, .09);
+}
+
+.faculty-number {
+  display: inline-grid;
+  place-items: center;
+  width: 43px;
+  height: 43px;
+  margin-bottom: 1rem;
+  color: var(--uc-morado);
+  background: var(--uc-morado-claro);
+  border-radius: 13px;
+  font-size: .82rem;
+  font-weight: 900;
+}
+
+.faculty-card p {
+  min-height: 72px;
+  color: var(--uc-gris);
+  font-size: .88rem;
+  line-height: 1.6;
+}
+
+.faculty-card a {
+  color: var(--uc-morado);
+  font-size: .85rem;
+  font-weight: 800;
+  text-decoration: none;
+}
+
+.faculty-card a:hover {
+  text-decoration: underline;
+}
+
+.about-section {
+  background: #fff;
+  border: 1px solid var(--uc-borde);
+  border-radius: 26px;
+  box-shadow: 0 15px 40px rgba(38, 18, 52, .05);
+}
+
+.about-image {
+  width: 100%;
+  height: 100%;
+  min-height: 570px;
+  object-fit: cover;
+}
+
+.about-item {
+  display: flex;
+  gap: 1rem;
+  padding: 1.1rem 0;
+  border-bottom: 1px solid #eee8f2;
+}
+
+.about-item > span {
+  flex-shrink: 0;
+  display: grid;
+  place-items: center;
+  width: 43px;
+  height: 43px;
+  color: #fff;
+  background: var(--uc-morado);
+  border-radius: 13px;
+  font-size: .75rem;
+  font-weight: 900;
+}
+
+.about-item p {
+  margin: 0;
+  color: var(--uc-gris);
+  font-size: .87rem;
+  line-height: 1.65;
+}
+
+@media (max-width: 991.98px) {
+  .hero-content {
+    min-height: auto;
+  }
+
+  .hero-image-wrapper,
+  .hero-image {
+    min-height: 330px;
+    height: 330px;
+  }
+
+  .about-image {
+    min-height: 350px;
+    height: 350px;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .hero-uc {
+    border-radius: 22px;
+  }
+
+  .hero-uc h1 {
+    font-size: 2.25rem;
+  }
+
+  .hero-image-wrapper,
+  .hero-image {
+    min-height: 280px;
+    height: 280px;
+  }
+
+  .explorer-image {
+    height: 250px;
+  }
+
+  .career-card {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .about-image {
+    height: 280px;
+    min-height: 280px;
+  }
+}

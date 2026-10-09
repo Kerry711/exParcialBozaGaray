@@ -1,1 +1,77 @@
-/* You can add global styles to this file, and also import other style files */
+@import 'bootstrap/dist/css/bootstrap.min.css';
+
+:root {
+  --uc-morado: #6802c1;
+  --uc-morado-oscuro: #43007d;
+  --uc-morado-claro: #f2e8fb;
+  --uc-azul: #003d68;
+  --uc-fondo: #f8f7fb;
+  --uc-texto: #20182d;
+  --uc-gris: #6f6878;
+  --uc-borde: #ebe5f0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background: var(--uc-fondo);
+  color: var(--uc-texto);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.section-anchor {
+  scroll-margin-top: 100px;
+}
+
+.section-label {
+  display: inline-block;
+  color: var(--uc-morado);
+  font-size: .76rem;
+  font-weight: 800;
+  letter-spacing: .12em;
+  text-transform: uppercase;
+}
+
+.section-title {
+  color: var(--uc-texto);
+  font-weight: 800;
+  letter-spacing: -.035em;
+}
+
+.text-uc {
+  color: var(--uc-morado) !important;
+}
+
+.bg-uc-soft {
+  background: var(--uc-morado-claro);
+}
+
+.btn-uc {
+  color: #fff;
+  background: var(--uc-morado);
+  border-color: var(--uc-morado);
+  font-weight: 700;
+}
+
+.btn-uc:hover,
+.btn-uc:focus {
+  color: #fff;
+  background: var(--uc-morado-oscuro);
+  border-color: var(--uc-morado-oscuro);
+}
+
+.btn-outline-uc {
+  color: var(--uc-morado);
+  border-color: var(--uc-morado);
+  font-weight: 700;
+}
+
+.btn-outline-uc:hover,
+.btn-outline-uc:focus {
+  color: #fff;
+  background: var(--uc-morado);
+  border-color: var(--uc-morado);
+}
